@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #222;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 400;
+
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.btn{
+    background: #4F46;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.btn:hover{
+    background: #372fc7;
+}
+
+.hero{
+    height: 90vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/hero.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    text-align: center;
+    color: white;
+}
+.hero-content h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    width: 700px;
+    margin: auto;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+.hero-btn{
+    background: #4f4f;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background: #372fc7;
+}
+.speakers{
+    padding: 70px;
+    background: #f8f9;
+}
+.speakers h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+.speaker-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+
+}
+.card{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card span{
+    display: inline-block;
+    margin-top: 25px;
+    background: #4F46;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+.card h3{
+    margin-top: 20px;
+    font-size: 28px;
+}
+.card p{
+    margin-top: 10px;
+    color: #555;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.hackathon{
+    background: #222;
+    color: white;
+    padding: 70px;
+    text-align: center;
+}
+.hackathon h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.hackathon p{
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+}
+.hackathon-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 22px;
+    margin-bottom: 39px;
+}
+.info-box{
+    background: #372fc7;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.info-box:hover{
+    transform: translateY(-8px);
+}
+.hack-btn{
+    background: #4F46;
+    color: wheat;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.hack-btn:hover{
+    background: #372fc7;
+}
