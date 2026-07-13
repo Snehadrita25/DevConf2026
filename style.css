@@ -223,3 +223,38 @@ body{
 .price-card:hover{
     transform: translateY(-10px);
 }
+footer{
+    background: #372fc7;
+    color: wheat;
+    padding: 40px 80px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+.social-links{
+    display: flex;
+    gap: 30px;
+    
+}
+.social-links a{
+    color: white;
+    text-decoration: none;
+}
+.social-links a:hover{
+    color: #372fc7;
+}
+hr{
+    margin: 35px 0;
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+footer p{
+    text-align: center;
+    color: #d1d;
+}
